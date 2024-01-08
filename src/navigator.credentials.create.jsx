@@ -48,7 +48,7 @@ function CredentialsCreateExample() {
         },
         pubKeyCredParams: [{ alg: -7, type: "public-key" }],
         authenticatorSelection: {
-          authenticatorAttachment: "cross-platform",
+          authenticatorAttachment: "platform",
         },
         timeout: 60000,
         attestation: "none" //  "none" "direct" "indirect"
